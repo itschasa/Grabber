@@ -1,0 +1,8 @@
+requests
+pyautogui
+pysqlite3
+pypiwin32
+pycrypto
+datetime
+browser_cookie3
+opencv-python
