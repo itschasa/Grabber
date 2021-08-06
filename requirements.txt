@@ -6,3 +6,5 @@ pycrypto
 datetime
 browser_cookie3
 opencv-python
+pyarmor
+pyinstaller
