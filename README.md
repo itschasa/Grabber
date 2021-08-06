@@ -4,6 +4,22 @@ I'd recommend looking into the code before just using it straight away.
 ### Disclaimer
 Some of the things in this repo should only be used in an educational enviroment, like the grabbers. I'm not liable for the damages caused by your actions.
 
+## Features:
+* Tries to go undetected.
+  - Obfuscated Webhook URLs
+  - No Virus Total Detections
+* Its Robust as hell.
+  - If no discord data is detected, it will still send all the info it got.
+  - If some of the info fails/couldn't be found, it still tries to send the webhook.
+* Too many things that it grabs.
+  - Chrome/Brave Password Grabber
+  - Discord Token Grabber
+  - Camera and Screenshot of Desktop
+  - Roblox Cookie Grabber
+  - PC Info and IP Grabber
+  - Billing Info (if billing connected to discord)
+  - Windows Licence Key
+
 ### Some things to note:
 * The webhook urls are encoded in base64 for extra encryption.
 * The chrome passwords are encrypted by default, I wouldn't recommend changing that, as if you accidently leaked it, you're fucked.
